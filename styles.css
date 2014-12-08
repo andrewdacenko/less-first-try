@@ -3,7 +3,8 @@
   width: 200px;
   height: 200px;
   margin: 20px;
-  background: #ddffdd;
+  border: 20px solid #bbbbdd;
+  background: #ddddff;
 }
 .Round {
   -webkit-border-radius: 9999px;

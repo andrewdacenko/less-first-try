@@ -2,7 +2,10 @@
 @lightGreen: #dfd;
 @lightBlue:  #ddf;
 
-@defaultThemeColor:@lightGreen;
+@defaultShapesWidth:200px;
+@defaultThemeColor:@lightBlue;
+@borderColor:@defaultThemeColor - #222;
+@borderSize:@defaultShapesWidth * 0.1;
 
 .shape
 {
@@ -12,6 +15,7 @@
     height: 200px;
     margin: 20px;
 
+    border: @borderSize solid @borderColor;
     background: @defaultThemeColor;
 }
 
