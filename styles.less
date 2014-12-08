@@ -3,9 +3,9 @@
 @lightBlue:  #ddf;
 
 @defaultShapesWidth:200px;
-@defaultThemeColor:@lightBlue;
-@borderColor:@defaultThemeColor - #222;
-@borderSize:@defaultShapesWidth * 0.1;
+@defaultThemeColor:spin(@lightBlue, 100);
+@borderColor:darken(desaturate(@defaultThemeColor, 100%), 20%);
+@borderSize:@defaultShapesWidth * .1;
 
 .shape
 {
